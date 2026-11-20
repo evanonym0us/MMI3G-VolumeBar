@@ -1,0 +1,9 @@
+# Your car's software. Never commit these.
+firmware/
+*.jxe
+k0133.jar
+
+# Downloaded tools and build output
+deps/
+build/
+dist/

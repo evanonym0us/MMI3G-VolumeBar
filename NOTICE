@@ -1,0 +1,41 @@
+MMI3G-VolumeBar
+Copyright (C) 2026 evanonym0us
+https://github.com/evanonym0us/MMI3G-VolumeBar
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation, version 3 of the License only. See LICENSE for the full text.
+
+This program is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.
+
+Additional permission under GNU GPL version 3 section 7
+
+If you modify this Program, or any covered work, by linking or combining it
+with the Audi MMI 3G screen software (lsd.jxe) or any part of it, including
+copies of its classes changed by this project's patcher (together, the
+"Firmware"), containing parts covered by the terms of their own licenses, the
+licensors of this Program grant you additional permission to convey the
+resulting work. Corresponding Source for a non-source form of such a
+combination shall include the source code for the parts of this Program
+used, but does not need to include the source code or class files of the
+Firmware.
+
+Third-party files
+
+The SD cards built by this project include two files that are not covered by
+the license above and keep their authors' terms:
+
+  copie_scr.sh  SD card launcher by DrGER
+                https://github.com/DrGER2/copie_src.sh
+  showScreen    full-screen image tool, from DrGER's MMI3G-Info card
+                https://github.com/DrGER2/MMI3G-Info
+
+Build tools fetched by scripts/fetch-deps.sh and not distributed here:
+
+  jxe2jar       https://github.com/luka-dev/jxe2jar
+  ASM 9.7       https://asm.ow2.io (BSD 3-Clause)
+
+Audi, MMI and related names are trademarks of their owners. This project is
+not affiliated with or endorsed by Audi AG, Volkswagen AG or Harman.
