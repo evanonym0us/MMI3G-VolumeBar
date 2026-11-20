@@ -22,7 +22,7 @@ An on-screen volume pop-up for the Audi MMI 3G High, styled after the one Audi a
 
 - **Tested on:** 2010 Audi S5 Cabriolet (US), MMI 3G High (HNav), software version HNav_US_K0133_3_D1, navigation database 8R0060884JE NAR 6.24.0. That is the only setup I've tested on. The installer checks for the K0133 screen software and stops without changing anything if it doesn't match.
 - **No warranty:** You use this at your own risk. I'm not responsible if something breaks, your MMI acts up, or your dealer gives you a weird look. I can't promise that any code, this or otherwise, is bug-free, but I did my best to make sure everything works as intended on the car.
-- **AI disclosure:** This project was created with the assistance of AI (Claude Opus 5.5 by Anthropic). It was designed, directed and tested by me, on an actual car. Everything I've thrown at it works, and there are fail-safes (listed below). If AI-assisted projects in your car aren't your thing, this isn't the project for you.
+- **AI disclosure:** This project was created with the assistance of AI (Claude Opus 5.5 by Anthropic). It was designed, directed and tested by me, on an actual car. Everything I've thrown at it works, and there are failsafes (listed below). If AI-assisted projects in your car aren't your thing, this isn't the project for you.
 
 ## What it does
 
@@ -34,7 +34,7 @@ An on-screen volume pop-up for the Audi MMI 3G High, styled after the one Audi a
 - Disappears right away when you switch screens, unless you're still turning the knob.
 - Never shows over the reverse camera.
 
-## Fail-safes
+## Failsafes
 
 - Nothing that came with the MMI is changed. Install adds one file, `/mnt/efs-system/lsd/TestServer.jar`, and remove deletes it again.
 - Every hook into the stock volume code is wrapped so that any error falls back to the stock behavior. After 5 errors the pop-up turns itself off until the next restart.
